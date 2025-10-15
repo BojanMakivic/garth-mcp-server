@@ -38,7 +38,7 @@ def user_profile() -> str | garth.UserProfile:
 
 @server.tool()
 @requires_garth_session
-def user_settings() -> int | garth.UserSettings:
+def user_settings() -> str | garth.UserSettings:
     """
     Get user settings using Garth's UserSettings data class.
     """
